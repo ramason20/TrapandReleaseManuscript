@@ -16,11 +16,11 @@ dirname = 'C:\Savloc\';
 if spring == 1
     load('C:\UpperBaySpringTideCTD.mat');
     tranno = 2;
-    transectfull = 2:9;
+    transectfull = 1:8;
 elseif neap == 1
     load('C:\UpperBayNeapTideCTD.mat');
     tranno = 16;
-    transectfull = 770:823;
+    transectfull = 1:54;
 end
 
 %Find Distance Between CTD Casts
