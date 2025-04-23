@@ -150,7 +150,7 @@ end
         hourofday = (23/24);
         %dateofmonth = 26 - 1;       %Spring End of Month
         %hourofday = (2/24);
-        t0_ROMS=datenum(2017,3,1,0,0,0);
+        t0_ROMS=datenum(2016,9,1,0,0,0);
         time = nc_varget('G:\ram_Research\Model_Runs\ramason_runs\Idealized_Tests\Riv_Avg_Wind_0\BayMouthCross\ocean_his_0002.nc','ocean_time');
     else
         t0_month=datenum(2016,9,1,0,0,0);   % ROMS time is "seconds since 2008-01-01 00:00:00"
